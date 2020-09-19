@@ -1,9 +1,9 @@
-SRC = src/adder.c\
+SRC = src/calc.c\
 main.c
 
 INC = -Iinc
 
-PROJECT_NAME = adder.exe
+PROJECT_NAME = calc.exe
 
 $(PROJECT_NAME): $(SRC)
 	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
